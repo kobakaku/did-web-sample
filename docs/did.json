@@ -1,0 +1,23 @@
+{
+  "@context": "https://www.w3.org/ns/did/v1",
+  "id": "did:web:kobakaku.github.io:did-web-sample",
+  "verificationMethod": [
+    {
+      "id": "did:web:kobakaku.github.io:did-web-sample#key1",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "controller": "did:web:kobakaku.github.io:did-web-sample",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "x": "B0Ghhuaqgn7BkB6KVn_pFZJjYt5ZeSCfIG1ZbNZkTt4",
+        "y": "hfGSs89DAY7ZoIWz7yP5OGd7QACwpJWuqNgNOglUArI",
+        "crv": "secp256k1"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:kobakaku.github.io:did-web-sample#key1"
+  ],
+  "assertionMethod": [
+    "did:web:kobakaku.github.io:did-web-sample#key1"
+  ]
+}
